@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
+﻿# Ashok Baghele | Senior Software Architect
 
-You can use the [editor on GitHub](https://github.com/baghele/AshokBaghele/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+> **Cloud & AI Specialist | Enterprise Solutions | Tech Innovator**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+## About Me
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am a Senior Software Architect with deep expertise in cloud modernization, AI engineering, and enterprise data solutions. With a proven track record of transforming legacy systems into scalable, cloud-native architectures, I deliver high-impact solutions for Fortune 500 companies and fast-growing enterprises.
 
-```markdown
-Syntax highlighted code block
+**Philosophy:** _"Code never discriminates, humans do."_
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+## Services & Expertise
 
-1. Numbered
-2. List
+### Cloud Modernization
+- AWS, GCP, Azure cloud architecture & migrations
+- Infrastructure-as-Code with Terraform
+- Microservices & serverless solutions
+- Architecture reviews & optimization
 
-**Bold** and _Italic_ and `Code` text
+### AI Engineering
+- Large Language Models (LLMs) & Generative AI
+- Retrieval-Augmented Generation (RAG)
+- AI Agents & Autonomous Workflows
+- Vector Databases & AI Operations
 
-[Link](url) and ![Image](src)
-```
+### Enterprise Content Management
+- FileNet Consulting & Migrations
+- Connectors & Custom Integrations
+- ICN Plugins & Workflow Automation
+- ECM System Optimization
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Data Engineering
+- Snowflake & Databricks platforms
+- Apache Spark & Kafka streaming
+- Data pipelines & ETL solutions
+- Business Intelligence & Analytics
 
-### Jekyll Themes
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/baghele/AshokBaghele/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Technical Stack
 
-### Support or Contact
+**Cloud Platforms:** AWS (EC2, S3, Lambda, SageMaker), GCP, Azure
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**AI/ML:** LLMs, RAG systems, Vector DBs, Agents, GenAI workflows
+
+**Data:** Snowflake, Databricks, Apache Spark, Kafka, dbt
+
+**Insights** PowerBI, Tableau, Superset
+
+**Languages:** Java, Python, TypeScript, SQL
+
+**Tools:** Terraform, Docker, Kubernetes, Git, Jenkins
+
+**Enterprise:** FileNet, Oracle
+
+---
+
+## Portfolio
+
+Featured projects demonstrating expertise across multiple domains:
+
+- **Enterprise RAG Search** - Advanced semantic search powered by LLMs
+- **FileNet Cloud Migration** - End-to-end legacy system modernization
+- **Data Engineering Solution** - Scalable analytics pipeline
+- **AI Ops Agent Automation** - Autonomous operational intelligence
+
+---
+
+## Client Testimonials
+
+> "Transformed our legacy FileNet system end-to-end with minimal downtime and maximum efficiency."
+> — VP Engineering, Enterprise Client
+
+> "AI integration boosted our operational efficiency by 60% within the first quarter."
+> — CTO, Fortune 500 Company
+
+> "Cloud + AI + Data expertise unmatched in the market. Delivered beyond expectations."
+> — Director, Solutions Architecture
+
+---
+
+## Get In Touch
+
+**Email:** [ashokbaghele@hotmail.com](mailto:ashokbaghele@hotmail.com)
+
+**Phone/WhatsApp:** +91 8319924486
+
+**Download Resume:** [Resume PDF](assets/resume_ashok.pdf)
+
+---
+
+## Connect
+
+Visit my [Portfolio Website](https://baghele.github.io/AshokBaghele/) to explore my work and services.
+
+---
+
+*Last Updated: November 2025*
