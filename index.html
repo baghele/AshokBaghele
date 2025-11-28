@@ -1,89 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link href="bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
-    <script src="bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
-    <!-- FIX: Updated FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-    <link href="main.css" rel="stylesheet" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Ashok Baghele | Portfolio</title>
 </head>
-
 <body>
-    <!-- Navigation (New) -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top px-3">
-        <a class="navbar-brand fw-bold" href="#">Ashok Baghele</a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto gap-3">
-                <li class="nav-item"><a class="nav-link fw-semibold" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link fw-semibold" href="#tech">Tech Stack</a></li>
-                <li class="nav-item"><a class="nav-link fw-semibold" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link fw-semibold" href="#contact">Contact</a></li>
-            </ul>
+    <nav class="navbar fixed-top">
+        <div class="container d-flex justify-content-between">
+            <h2 class="text-light m-0">Ashok Baghele</h2>
+            <div>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
 
-    <div class="container-fluid py-5 mt-5" style="background-color:#f2f7ff; min-height:100vh;">
-        <div class="row">
-            <div class="col-12">
+    <section id="about" class="text-center" style="padding-top:120px;">
+        <img src="ashok.png" class="rounded-circle" width="160" />
+        <h1 class="mt-3">Ashok Baghele</h1>
+        <p class="lead text-muted">Senior Software Architect • Cloud & AI Specialist • Tech Enthusiast</p>
+        <p><i>“Code never discriminates, humans do.” – A.B</i></p>
 
-                <div class="card shadow w-100" style="border-radius:1rem; overflow:hidden;">
-                    <div class="card-body text-center">
-
-                        <div class="img1">
-                            <img src="background.jpg" class="img-fluid w-100" />
-                        </div>
-
-                        <div class="img2">
-                            <img src="ashok.png" class="rounded-circle"
-                                 style="width:150px; margin-top:-75px; border:5px solid white;" />
-                        </div>
-
-                        <div class="main-text mt-3">
-                            <h2 class="fw-bold">Ashok Baghele</h2>
-                            <p class="text-muted fw-semibold">
-                                Senior Software Architect • Cloud & AI Specialist • Tech Enthusiast
-                            </p>
-                            <p class="fst-italic">“Code never discriminates, humans do.” – A.B</p>
-                        </div>
-
-                        <div class="mt-4 d-flex justify-content-center gap-3">
-                            <a href="#contact" class="btn btn-primary px-4 py-2 fw-semibold" style="border-radius:30px;">Hire Me</a>
-                            <a href="resume.pdf" download class="btn btn-outline-primary px-4 py-2 fw-semibold" style="border-radius:30px;">
-                                Download Resume
-                            </a>
-                        </div>
-
-                        <!-- FIX: Icons now show -->
-                        <div class="socials mt-4 fs-3 d-flex justify-content-center gap-4">
-                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/in/ashok-baghele-a9491171/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-
-                        <hr />
-
-                        <div id="contact" class="px-3 py-3 mt-4 bg-light rounded text-start">
-                            <h4 class="fw-bold">Contact</h4>
-                            <p><strong>Email:</strong> ashokbaghele@hotmail.com</p>
-                            <p><strong>Mobile / WhatsApp:</strong> +91 8319924486</p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
+        <div class="mt-4">
+            <a class="btn btn-primary" href="#contact">Hire Me</a>
+            <a class="btn btn-outline-primary" href="resume.pdf" download>Download Resume</a>
         </div>
-    </div>
+    </section>
 
+    <section id="services">
+        <h2 class="section-title">Services</h2>
+        <div class="project-grid">
+            <div class="card"><h3>Cloud Modernization</h3><p>AWS • GCP • Terraform • Architecture Reviews</p></div>
+            <div class="card"><h3>AI Engineering</h3><p>LLMs • RAG • Agents • Vector DB • GenAI Workflows</p></div>
+            <div class="card"><h3>FileNet Consulting</h3><p>Migrations • Connectors • ICN Plugins • ECM</p></div>
+            <div class="card"><h3>Data Engineering</h3><p>Snowflake • Databricks • Spark • Kafka • BI</p></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projects Portfolio</h2>
+        <div class="project-grid">
+            <div class="project-item"><img src="assets/project1.jpg" /><h3>Enterprise RAG Search</h3></div>
+            <div class="project-item"><img src="assets/project2.jpg" /><h3>FileNet Cloud Migration</h3></div>
+            <div class="project-item"><img src="assets/project3.jpg" /><h3>Snowflake Platform</h3></div>
+            <div class="project-item"><img src="assets/project4.jpg" /><h3>AI Ops Agent Automation</h3></div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonial-box"><p>“Transformed our legacy FileNet system end-to-end.”</p><strong>– VP Engineering</strong></div>
+        <div class="testimonial-box"><p>“AI integration boosted our efficiency by 60%.”</p><strong>– CTO</strong></div>
+        <div class="testimonial-box"><p>“Cloud + AI + Data expertise unmatched.”</p><strong>– Director, Solutions</strong></div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p><strong>Email:</strong> ashokbaghele@hotmail.com</p>
+        <p><strong>Mobile / WhatsApp:</strong> +91 8319924486</p>
+    </section>
+
+    <a href="https://wa.me/918319924486" class="floating-whatsapp" target="_blank">☎️</a>
 </body>
 </html>
