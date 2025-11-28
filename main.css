@@ -77,6 +77,72 @@ body {
   color: #58a6ff;
 }
 
+#contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.contact-icons {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.contact-link[href*="mailto"] {
+  background: #0072c6;
+}
+
+.contact-link[href*="mailto"]:hover {
+  background: #005a9e;
+  transform: scale(1.1);
+}
+
+.contact-link[href*="wa.me"] {
+  background: #25d366;
+}
+
+.contact-link[href*="wa.me"]:hover {
+  background: #1da851;
+  transform: scale(1.1);
+}
+
+.email-link {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.phone-link {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.phone-link:hover {
+  text-decoration: underline;
+}
+
 .floating-whatsapp {
   position: fixed;
   right: 20px;
@@ -103,6 +169,12 @@ body {
   border-radius: 50%;
   text-decoration: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  transition: background 0.3s ease;
 }
 .email-icon:hover {
   background: #005a9e;
