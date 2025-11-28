@@ -1,65 +1,36 @@
 body {
-    background-color: black;
-    overflow: hidden; 
+    background-color: #f2f7ff;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .card {
-    box-shadow: 0 0 30px rgba(0, 0, 0,  0.5);
-    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
 }
 
 .img1 img {
-    height: 200px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    width: 100%;
+    height: 260px;
+    object-fit: cover;
 }
 
 .img2 img {
-    position: relative;
+    margin: -80px auto 0;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1;
-    width: 140px;
-    height: 140px;
     border-radius: 50%;
-    border:7px solid #fff;
-    margin-top: -80px;
-}
-
-.card:hover .img1 img {
-    border-color: cyan;
-    transition: .7s;
 }
 
 .main-text {
-    padding: 25px 0;
-    text-align: center;
-}
-
-.main-text h2 {
-    font-weight: 900;
-    font-size: 20px;
-    margin: 0 0 20px;
-}
-
-.main-text p {
-    font-size: 16px;
-    padding-bottom: 20px;
-}
-
-.socials {
-    text-align: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .socials i {
-    font-size: 20px;
-    color: rgb(36, 81, 107);
-    padding: 0 10px;
-    margin: 0 auto;
+    font-size: 26px;
+    color: #22577a;
+    transition: 0.3s;
 }
 
-.fa { font-family: 'FontAwesome' !important; } 
+.socials i:hover {
+    color: #0d6efd;
+    transform: scale(1.2);
+}
